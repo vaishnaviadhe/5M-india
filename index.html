@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Digital Marketing, Promotional Campaigns, and Advertising Services.">
+    <title>Our Services | Digital Growth</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header / Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Empower Your <span>Digital Presence</span></h1>
+            <p class="hero-subtitle">Provide Best Marketing Services For Your Business. Tailored Solutions for all your
+                Advertising and Promotional needs.</p>
+            <a href="#contact" class="btn btn-primary">Let's Get in Touch</a>
+        </div>
+    </header>
+
+    <!-- Services Grid Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-heading">
+                <h6 class="badge">What we do</h6>
+                <h2 class="section-title">Tailored Solutions for Your Growth</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>We specialize in creating comprehensive digital marketing strategies that increase visibility,
+                        engage your target audience, and drive conversions across all digital touchpoints.</p>
+                    <a href="digital-marketing.html" class="read-more">Learn More <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <h3>Promotional Campaigns</h3>
+                    <p>Launch high-impact promotional campaigns designed to capture attention and excitement. Our
+                        creative team develops promotions that resonate and maximize ROI.</p>
+                    <a href="#contact" class="read-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-ad"></i>
+                    </div>
+                    <h3>Advertising</h3>
+                    <p>From social media ads to search engine marketing, we craft targeted advertising solutions that
+                        reach the right people at the right time with the perfect message.</p>
+                    <a href="advertising.html" class="read-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 class="section-title">Ready To Get Free Consultations?</h2>
+                <p>Reach out to us for inquiries, collaborations, and top-notch support. Let's level up your digital
+                    journey together!</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h5>Call Any Time</h5>
+                            <a href="tel:+91 9699318163">+91 9699318163</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h5>Email Us</h5>
+                            <a href="mailto:hr@5m-india.in">hr@5m-india.in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form id="queryForm" class="contact-form">
+                    <h3>Let's Get in Touch!</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="digital-marketing">Digital Marketing</option>
+                            <option value="promotional-campaigns">Promotional Campaigns</option>
+                            <option value="advertising">Advertising</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" placeholder="How can we help you?"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <p id="formStatus" class="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flex-footer">
+            <div class="footer-logo">Digital Growth</div>
+            <p>&copy; 2026 Digital Growth. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
